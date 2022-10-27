@@ -5,7 +5,7 @@ import NavigationRoutes from './src/routes';
 const App: React.FC = () => {
   return (
     <NavigationRoutes>
-      <Layout />
+      <Layout /> 
     </NavigationRoutes>
   )
 }

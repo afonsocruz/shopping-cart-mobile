@@ -4,7 +4,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { Homepage, Checkout } from '../pages';
 import { NavigationRoutesType } from '../types';
 
-
 const Stack = createNativeStackNavigator();
 
 const NavigationRoutes: React.FC<NavigationRoutesType> = ({ children }: NavigationRoutesType) => {

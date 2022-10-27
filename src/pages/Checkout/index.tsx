@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button } from 'react-native';
+import { CustomButton } from '../../components';
 
 const Checkout: React.FC = ({ navigation }: any) => {
   return (
-    <Button
+    <CustomButton
       title="Home"
       onPress={() => navigation.navigate('Home')}
     />
