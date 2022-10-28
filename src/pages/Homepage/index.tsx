@@ -1,25 +1,23 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { CustomButton } from '../../components';
+import { CustomButton, ProductsList } from '../../components';
 
 const Homepage: React.FC = ({ navigation }: any) => {
   return (
-    <View>
+    <View style={styles.home}>
       <CustomButton
         title='Checkout'
         onPress={() => navigation.navigate('Checkout')}
       />
+      <ProductsList />
     </View>
   )
 }
 
 const styles = StyleSheet.create({
-  view: {
-    alignItems: 'center',
-    justifyContent: 'center',
+  home: {
+    padding: 12,
   }
 })
-
-
 
 export default Homepage;

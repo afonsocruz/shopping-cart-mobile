@@ -1,5 +1,5 @@
 import React from 'react';
-import {Pressable, StyleSheet, Text} from 'react-native'
+import {Button, Pressable, StyleSheet, Text, TouchableOpacity} from 'react-native'
 import { CustomButtonType } from '../../types'
 
 const CustomButton: React.FC<CustomButtonType> = ({ 
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 16,
     fontWeight: 'bold'
-  }
+  },
 })
 
 export default CustomButton;
